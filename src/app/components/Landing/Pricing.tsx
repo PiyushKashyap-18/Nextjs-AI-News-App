@@ -20,7 +20,7 @@ const Pricing = () => {
             <Card className="border-2 border-gray-200 shadow-lg hover:shadow-xl transition-shadow">
               <CardHeader className="text-center pb-8">
                 <CardTitle className="text-2xl font-bold">Free</CardTitle>
-                <div className="text-4xl font-bold mt-4">$0</div>
+                <div className="text-4xl font-bold mt-4">₹ 0</div>
                 <p className="text-gray-600 mt-2">Perfect for casual readers</p>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -39,7 +39,7 @@ const Pricing = () => {
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
-                    <span>10 news reels per day</span>
+                    <span>Unlimited news reels</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <svg
@@ -75,7 +75,7 @@ const Pricing = () => {
                   </div>
                   <div className="flex items-center space-x-3">
                     <svg
-                      className="w-5 h-5 text-red-500"
+                      className="w-5 h-5 text-green-500"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -84,14 +84,14 @@ const Pricing = () => {
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth={2}
-                        d="M6 18L18 6M6 6l12 12"
+                        d="M5 13l4 4L19 7"
                       />
                     </svg>
-                    <span className="text-gray-500">Includes ads</span>
+                    <span>Includes ads</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <svg
-                      className="w-5 h-5 text-red-500"
+                      className="w-5 h-5 text-green-500"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -100,12 +100,10 @@ const Pricing = () => {
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth={2}
-                        d="M6 18L18 6M6 6l12 12"
+                        d="M5 13l4 4L19 7"
                       />
                     </svg>
-                    <span className="text-gray-500">
-                      Community support only
-                    </span>
+                    <span>Community support only</span>
                   </div>
                 </div>
                 <Button className="w-full mt-8 bg-gray-800 hover:bg-gray-900">
@@ -123,7 +121,7 @@ const Pricing = () => {
               </div>
               <CardHeader className="text-center pb-8">
                 <CardTitle className="text-2xl font-bold">Premium</CardTitle>
-                <div className="text-4xl font-bold mt-4">$9.99</div>
+                <div className="text-4xl font-bold mt-4"> ₹ 99</div>
                 <p className="text-gray-600 mt-2">per month</p>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -142,7 +140,9 @@ const Pricing = () => {
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
-                    <span>Unlimited news reels</span>
+                    <span>
+                      Unlimited news reels with advanced AI summaries{" "}
+                    </span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <svg

@@ -36,7 +36,7 @@ const FeatureSection = () => {
                 </div>
                 <h3 className="text-2xl font-bold">Lightning Fast</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Get the essence of any story in under 60 seconds. No more
+                  Get the essence of any story in under 60 words. No more
                   endless scrolling through lengthy articles.
                 </p>
               </CardContent>

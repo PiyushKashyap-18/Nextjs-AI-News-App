@@ -24,7 +24,6 @@ const Footer = () => {
               <div className="space-y-2 text-gray-600">
                 <div>Features</div>
                 <div>Pricing</div>
-                <div>API</div>
               </div>
             </div>
 
@@ -33,7 +32,6 @@ const Footer = () => {
               <div className="space-y-2 text-gray-600">
                 <div>About</div>
                 <div>Blog</div>
-                <div>Careers</div>
               </div>
             </div>
 

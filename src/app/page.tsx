@@ -4,7 +4,6 @@ import HeroSection from "./components/Landing/HeroSection";
 import FeatureSection from "./components/Landing/FeatureSection";
 import GettingStart from "./components/Landing/GettingStart";
 import Pricing from "./components/Landing/Pricing";
-import CTASection from "./components/Landing/CTASection";
 import Footer from "./components/Landing/Footer";
 
 export default function LandingPage() {
@@ -22,8 +21,6 @@ export default function LandingPage() {
       <Pricing />
       {/* Waitlist Section */}
       <WaitlistForm />
-      {/* CTA Section */}
-      <CTASection />
       {/* Footer */}
       <Footer />
     </div>
