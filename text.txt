@@ -1,0 +1,158 @@
+#CARD 
+https://www.cult-ui.com/docs/components/expandable
+https://magicui.design/docs/components/border-beam -- login
+https://magicui.design/docs/components/shine-border -- LOGIN
+https://animata.design/docs/list/transaction-list
+https://animata.design/docs/widget
+
+#BUTTON
+https://www.cult-ui.com/docs/components/popover
+https://magicui.design/docs/components/shiny-button
+https://magicui.design/docs/components/interactive-hover-button
+https://magicui.design/docs/components/animated-subscribe-button
+https://animata.design/docs/button
+
+
+#LIST
+https://www.cult-ui.com/docs/components/sortable-list
+
+
+#SOCIAL
+https://www.cult-ui.com/docs/components/tweet-grid
+https://magicui.design/docs/components/marquee
+https://magicui.design/docs/components/hero-video-dialog
+
+
+#TEXT ANIMATION
+https://www.cult-ui.com/docs/components/text-animate
+https://magicui.design/docs/components/text-animate
+https://magicui.design/docs/components/line-shadow-text
+https://magicui.design/docs/components/aurora-text
+https://www.cult-ui.com/docs/components/typewriter
+https://magicui.design/docs/components/number-ticker --Numver COUnter
+https://animata.design/docs/text/counter -- number counter
+https://magicui.design/docs/components/animated-shiny-text -- BETA
+https://magicui.design/docs/components/animated-gradient-text -- BETA
+https://magicui.design/docs/components/text-reveal  -- revil
+https://magicui.design/docs/components/word-rotate -- ROTATE
+https://magicui.design/docs/components/typing-animation --TYPEWRITTER
+https://magicui.design/docs/components/scroll-based-velocity  -- TEXT Scroll vertically
+https://magicui.design/docs/components/flip-text Flip text
+https://magicui.design/docs/components/box-reveal --box revel
+https://magicui.design/docs/components/sparkles-text -- sparkles text
+
+
+#PHONE WEB ANDROID
+https://magicui.design/docs/components/iphone-15-pro
+https://magicui.design/docs/components/android
+https://magicui.design/docs/components/safari
+
+
+#BACKGROUND
+https://magicui.design/docs/components/dot-pattern
+https://animata.design/docs/background/dot
+https://animata.design/docs/background/interactive-grid
+
+
+#CHAT
+https://animata.design/docs/card/comment-reply-card
+
+#TABS
+https://animata.design/docs/card/fluid-tabs
+
+
+
+#OTHERS
+https://animata.design/docs/card/reminder-scheduler
+
+
+
+
+
+
+
+
+
+
+====================================EMAIL=================================================
+Subject line: How is your free trial so far?
+
+Hi [Prospect First Name],
+
+First off, thank you for signing up for the free trial! It’s been a few days since you signed up, so I wanted to check in and see how it’s going so far.
+
+Do you have any questions about [product/service]? I’m happy to clarify any concerns you may have and provide helpful information and resources.
+
+Would you have time this week to chat about this further? I would love to discuss how [product/service] can help you—just let me know.
+
+Best regards,
+[Your Name]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++New FEature++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Subject line: Explore [Product Name]’s new feature
+
+Hi [Prospect First Name],
+
+Dropping in to announce that we’ve just added [feature] to our [product/service], and I think your team will love it! Below is a quick breakdown of the benefits:
+
+[Benefit 1]
+
+[Benefit 2]
+
+[Benefit 3]
+
+Don’t hesitate to reach out if you have any questions.
+
+Best,
+[Your Name]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++Launch End+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Launch is close
+Hey {{person.firstName}},
+
+I have an important announcement regarding the [add product].
+
+You already know about the [add main benefits here], and with the launch being just over a week away, I am today announcing a pre-order sale.
+
+If pre-ordered today, you can get the [enter product] with a 50% discount and a secret bonus.
+
+The discount is available for up to 24 hours before the launch date on [enter date].
+
+To read the pre-order sales page — click here.
+
+If you have any questions, hit the reply button in this email, and I’ll send a personal reply back ASAP.
+
+The price available for pre-order will go away soon, so act fast if you want the discount and secret bonus.
+
+Speak soon,
+
+[your name]
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++Launch End+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++Launch End+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++Launch End+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++Launch End+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++Launch End+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
