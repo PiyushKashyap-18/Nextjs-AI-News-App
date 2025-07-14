@@ -3,14 +3,14 @@ import React from "react";
 
 const FeatureSection = () => {
   return (
-    <div>
-      <section className="py-20 bg-gray-50">
+    <div id="features">
+      <section className="py-20 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl md:text-5xl font-bold">
-              Why Choose NewsReels?
+              Why Choose QuickSwipe?
             </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
               Experience news consumption like never before with our
               cutting-edge features
             </p>
@@ -19,9 +19,9 @@ const FeatureSection = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8 text-center space-y-4">
-                <div className="w-16 h-16 bg-black rounded-2xl flex items-center justify-center mx-auto">
+                <div className="w-16 h-16 bg-black dark:bg-white rounded-2xl flex items-center justify-center mx-auto">
                   <svg
-                    className="w-8 h-8 text-white"
+                    className="w-8 h-8 text-white dark:text-black"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -35,7 +35,7 @@ const FeatureSection = () => {
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold">Lightning Fast</h3>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                   Get the essence of any story in under 60 words. No more
                   endless scrolling through lengthy articles.
                 </p>
@@ -44,9 +44,9 @@ const FeatureSection = () => {
 
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8 text-center space-y-4">
-                <div className="w-16 h-16 bg-black rounded-2xl flex items-center justify-center mx-auto">
+                <div className="w-16 h-16 bg-black dark:bg-white rounded-2xl flex items-center justify-center mx-auto">
                   <svg
-                    className="w-8 h-8 text-white"
+                    className="w-8 h-8 text-white dark:text-black"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -60,7 +60,7 @@ const FeatureSection = () => {
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold">AI-Powered</h3>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                   Advanced AI curates and summarizes news from thousands of
                   sources, personalized just for you.
                 </p>
@@ -69,9 +69,9 @@ const FeatureSection = () => {
 
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8 text-center space-y-4">
-                <div className="w-16 h-16 bg-black rounded-2xl flex items-center justify-center mx-auto">
+                <div className="w-16 h-16 bg-black dark:bg-white rounded-2xl flex items-center justify-center mx-auto">
                   <svg
-                    className="w-8 h-8 text-white"
+                    className="w-8 h-8 text-white dark:text-black"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -85,7 +85,7 @@ const FeatureSection = () => {
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold">Mobile First</h3>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                   Designed for your lifestyle. Swipe through stories during your
                   commute, lunch break, or anytime.
                 </p>

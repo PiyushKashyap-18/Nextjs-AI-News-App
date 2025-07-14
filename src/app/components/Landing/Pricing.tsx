@@ -5,23 +5,25 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <div>
-      <section className="py-20 bg-gray-50">
+    <div id="pricing">
+      <section className="py-20 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl md:text-5xl font-bold">Choose Your Plan</h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
               Start free, upgrade when you need more features
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {/* Free Plan */}
-            <Card className="border-2 border-gray-200 shadow-lg hover:shadow-xl transition-shadow">
+            <Card className="border-2 border-gray-200 dark:border-gray-700 shadow-lg hover:shadow-xl transition-shadow">
               <CardHeader className="text-center pb-8">
                 <CardTitle className="text-2xl font-bold">Free</CardTitle>
                 <div className="text-4xl font-bold mt-4">₹ 0</div>
-                <p className="text-gray-600 mt-2">Perfect for casual readers</p>
+                <p className="text-gray-600 dark:text-gray-300 mt-2">
+                  Perfect for casual readers
+                </p>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="space-y-4">
@@ -106,23 +108,25 @@ const Pricing = () => {
                     <span>Community support only</span>
                   </div>
                 </div>
-                <Button className="w-full mt-8 bg-gray-800 hover:bg-gray-900">
+                <Button className="w-full mt-8 bg-gray-800 hover:bg-gray-900 dark:bg-gray-700 dark:hover:bg-gray-600">
                   Get Started Free
                 </Button>
               </CardContent>
             </Card>
 
             {/* Premium Plan */}
-            <Card className="border-2 border-black shadow-lg hover:shadow-xl transition-shadow relative">
+            <Card className="border-2 border-black dark:border-white shadow-lg hover:shadow-xl transition-shadow relative">
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <Badge className="bg-black text-white px-4 py-1">
+                <Badge className="bg-black text-white dark:bg-white dark:text-black px-4 py-1">
                   Most Popular
                 </Badge>
               </div>
               <CardHeader className="text-center pb-8">
                 <CardTitle className="text-2xl font-bold">Premium</CardTitle>
                 <div className="text-4xl font-bold mt-4"> ₹ 99</div>
-                <p className="text-gray-600 mt-2">per month</p>
+                <p className="text-gray-600 dark:text-gray-300 mt-2">
+                  per month
+                </p>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="space-y-4">
@@ -241,7 +245,7 @@ const Pricing = () => {
                     <span>Early access to new features</span>
                   </div>
                 </div>
-                <Button className="w-full mt-8 bg-black hover:bg-gray-800">
+                <Button className="w-full mt-8 bg-black dark:bg-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200">
                   Start Premium Trial
                 </Button>
               </CardContent>

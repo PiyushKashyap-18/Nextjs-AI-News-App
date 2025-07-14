@@ -19,8 +19,8 @@ import {
 } from "@/components/ui/form";
 
 const SuccessMessage = () => (
-  <Card className="border-2 border-black shadow-lg hover:shadow-xl transition-shadow relative">
-    <CardContent className="p-8 text-center space-y-4">
+  <Card className="max-w-md mx-4 sm:mx-auto mb-8 border-2 border-black dark:border-white shadow-lg hover:shadow-xl transition-shadow">
+    <CardContent className="p-8 space-y-6 text-center">
       <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto">
         <svg
           className="w-8 h-8 text-white"
@@ -36,13 +36,17 @@ const SuccessMessage = () => (
           />
         </svg>
       </div>
-      <h3 className="text-2xl font-bold text-green-800">
-        You&apos;re on the list!
-      </h3>
-      <p className="text-green-700">
-        Thanks for joining our waitlist. We&apos;ll notify you as soon as
-        NewsReels is ready!
-      </p>
+
+      <div className="space-y-2">
+        <h3 className="text-2xl font-bold text-green-800">
+          You&apos;re on the list!
+        </h3>
+        <p className="text-gray-600 dark:text-gray-300">
+          Thanks for joining our waitlist. We&apos;ll notify you as soon as
+          QuickSwipe is ready!
+        </p>
+      </div>
+
       <Badge variant="outline" className="border-green-500 text-green-700">
         🎉 Welcome aboard!
       </Badge>
@@ -90,11 +94,11 @@ export function WaitlistForm() {
   }
 
   return (
-    <Card className="max-w-md mx-4 sm:mx-auto border-2 border-black mb-8">
+    <Card className="max-w-md mx-4 sm:mx-auto border-2 border-black dark:border-white mb-8">
       <CardContent className="p-8 space-y-6">
         <div className="text-center space-y-2">
           <h3 className="text-2xl font-bold">Join the Waitlist</h3>
-          <p className="text-gray-600">
+          <p className="text-gray-600 dark:text-gray-300">
             Be the first to experience the future of news consumption
           </p>
         </div>
@@ -111,7 +115,7 @@ export function WaitlistForm() {
                       type="email"
                       placeholder="Enter your email address"
                       {...field}
-                      className="w-full px-4 py-3 text-lg border-2 border-gray-300 focus:border-black"
+                      className="w-full px-4 py-3 text-lg border-2 border-gray-300 dark:border-gray-700 focus:border-black dark:focus:border-white"
                       disabled={isSubmitting}
                     />
                   </FormControl>
@@ -127,7 +131,7 @@ export function WaitlistForm() {
             <Button
               type="submit"
               disabled={isSubmitting}
-              className="w-full py-3 text-lg bg-black hover:bg-gray-800 disabled:opacity-50"
+              className="w-full py-3 text-lg bg-black dark:bg-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200 disabled:opacity-50"
             >
               {isSubmitting ? (
                 <div className="flex items-center justify-center space-x-2">
@@ -141,7 +145,7 @@ export function WaitlistForm() {
           </form>
         </Form>
 
-        <div className="text-center text-sm text-gray-500">
+        <div className="text-center text-sm text-gray-500 dark:text-gray-400">
           <p>No spam, ever. Unsubscribe anytime.</p>
         </div>
       </CardContent>

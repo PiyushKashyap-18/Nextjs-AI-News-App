@@ -5,18 +5,22 @@ import FeatureSection from "./components/Landing/FeatureSection";
 import GettingStart from "./components/Landing/GettingStart";
 import Pricing from "./components/Landing/Pricing";
 import Footer from "./components/Landing/Footer";
+import SessionProvider from "./components/SessionProvider";
 
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <HeroNav />
+      <SessionProvider>
+        <HeroNav />
+        {/* rest of page */}
+      </SessionProvider>
       {/* Hero Section */}
       <HeroSection />
       {/* Features Section */}
       <FeatureSection />
       {/* How to start Section */}
-      <GettingStart/>
+      <GettingStart />
       {/* Pricing Section */}
       <Pricing />
       {/* Waitlist Section */}
