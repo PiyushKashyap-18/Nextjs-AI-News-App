@@ -21,7 +21,7 @@ import {
 const SuccessMessage = () => (
   <Card
     id="waitlist"
-    className="max-w-md mx-4 sm:mx-auto mb-8 border-2 border-black dark:border-white shadow-lg hover:shadow-xl transition-shadow"
+    className="max-w-md mx-4  sm:mx-auto mb-8 border-2 border-black dark:border-white shadow-lg hover:shadow-xl transition-shadow"
   >
     <CardContent className="p-8 space-y-6 text-center">
       <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto">
@@ -45,8 +45,7 @@ const SuccessMessage = () => (
           You&apos;re on the list!
         </h3>
         <p className="text-gray-600 dark:text-gray-300">
-          Thanks for joining our waitlist. We&apos;ll notify you as soon as
-          QuickSwipe is ready!
+          Thanks for joining our Newsletter!
         </p>
       </div>
 
@@ -103,7 +102,7 @@ export function WaitlistForm() {
     >
       <CardContent className="p-8 space-y-6">
         <div className="text-center space-y-2">
-          <h3 className="text-2xl font-bold">Join the Waitlist</h3>
+          <h3 className="text-2xl font-bold">Join Our Newsletter</h3>
           <p className="text-gray-600 dark:text-gray-300">
             Be the first to experience the future of news consumption
           </p>
@@ -119,7 +118,7 @@ export function WaitlistForm() {
                   <FormControl>
                     <Input
                       type="email"
-                      placeholder="Enter your email address"
+                      placeholder="Your work email "
                       {...field}
                       className="w-full px-4 py-3 text-lg border-2 border-gray-300 dark:border-gray-700 focus:border-black dark:focus:border-white"
                       disabled={isSubmitting}
@@ -145,15 +144,11 @@ export function WaitlistForm() {
                   <span>Joining...</span>
                 </div>
               ) : (
-                "Join Waitlist"
+                "Join Our Newsletter"
               )}
             </Button>
           </form>
         </Form>
-
-        <div className="text-center text-sm text-gray-500 dark:text-gray-400">
-          <p>No spam, ever. Unsubscribe anytime.</p>
-        </div>
       </CardContent>
     </Card>
   );

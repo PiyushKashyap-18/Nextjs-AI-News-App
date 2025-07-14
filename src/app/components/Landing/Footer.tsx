@@ -29,23 +29,24 @@ const Footer = () => {
               <div className="flex flex-col space-y-2 text-gray-600 dark:text-gray-300">
                 <Link href="#features">Features</Link>
                 <Link href="#pricing">Pricing</Link>
-                <Link href="#waitlist">Waitlist</Link>
+                <Link href="#waitlist">Join Our Newsletter</Link>
               </div>
             </div>
 
             <div className="space-y-4">
               <h4 className="font-semibold">Company</h4>
               <div className="space-y-2 text-gray-600 dark:text-gray-300">
-                <div>About</div>
-                <div>Blog</div>
+                <div className="pointer-events-none">About</div>
+                <div className="pointer-events-none">Blog</div>
               </div>
             </div>
 
             <div className="space-y-4">
               <h4 className="font-semibold">Support</h4>
-              <div className="space-y-2 text-gray-600 dark:text-gray-300">
-                <div>Contact</div>
-                <div>Privacy</div>
+              <div className="flex flex-col space-y-2 text-gray-600 dark:text-gray-300">
+                <div className="pointer-events-none">Contact</div>
+                <Link href="/privacy">Privacy Policy</Link>
+                <Link href="/terms">Terms of Service</Link>
               </div>
             </div>
           </div>
@@ -57,9 +58,9 @@ const Footer = () => {
               © {new Date().getFullYear()} QuickSwipesss. All rights reserved.
             </div>
             <div className="flex space-x-6 text-gray-600 dark:text-gray-300">
-              <div>Terms</div>
-              <div>Privacy</div>
-              <div>Cookies</div>
+              <Link href="/privacy">Privacy Policy</Link>
+              <Link href="/terms">Terms of Service</Link>
+              <div className="pointer-events-none">Cookies</div>
             </div>
           </div>
         </div>

@@ -3,7 +3,6 @@ import HeroNav from "./components/Landing/HeroNav";
 import HeroSection from "./components/Landing/HeroSection";
 import FeatureSection from "./components/Landing/FeatureSection";
 import GettingStart from "./components/Landing/GettingStart";
-import Pricing from "./components/Landing/Pricing";
 import Footer from "./components/Landing/Footer";
 import SessionProvider from "./components/SessionProvider";
 
@@ -16,13 +15,15 @@ export default function LandingPage() {
         {/* rest of page */}
       </SessionProvider>
       {/* Hero Section */}
-      <HeroSection />
+      <SessionProvider>
+        <HeroSection />
+      </SessionProvider>
       {/* Features Section */}
       <FeatureSection />
       {/* How to start Section */}
       <GettingStart />
       {/* Pricing Section */}
-      <Pricing />
+      {/* <Pricing /> */}
       {/* Waitlist Section */}
       <WaitlistForm />
       {/* Footer */}

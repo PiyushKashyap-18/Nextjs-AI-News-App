@@ -1,8 +1,12 @@
+"use client";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { useSession } from "next-auth/react";
+import Link from "next/link";
 import React from "react";
 
 const HeroSection = () => {
+  const { data: session } = useSession();
   return (
     <div>
       <section className="pt-24 pb-16 px-4">
@@ -28,12 +32,25 @@ const HeroSection = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-              <Button
-                size="lg"
-                className="w-full sm:w-auto px-8 py-6 text-lg bg-black dark:bg-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200"
-              >
-                Start Reading Now
-              </Button>
+              {session ? (
+                <Link href="/app">
+                  <Button
+                    size="lg"
+                    className="w-full sm:w-auto px-8 py-6 text-lg bg-black dark:bg-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200"
+                  >
+                    Start Reading Now
+                  </Button>
+                </Link>
+              ) : (
+                <Link href="/login">
+                  <Button
+                    size="lg"
+                    className="w-full sm:w-auto px-8 py-6 text-lg bg-black dark:bg-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200"
+                  >
+                    Start Reading Now
+                  </Button>
+                </Link>
+              )}
             </div>
 
             {/* Hero Visual - iPhone Style */}
