@@ -19,7 +19,10 @@ import {
 } from "@/components/ui/form";
 
 const SuccessMessage = () => (
-  <Card className="max-w-md mx-4 sm:mx-auto mb-8 border-2 border-black dark:border-white shadow-lg hover:shadow-xl transition-shadow">
+  <Card
+    id="waitlist"
+    className="max-w-md mx-4 sm:mx-auto mb-8 border-2 border-black dark:border-white shadow-lg hover:shadow-xl transition-shadow"
+  >
     <CardContent className="p-8 space-y-6 text-center">
       <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto">
         <svg
@@ -94,7 +97,10 @@ export function WaitlistForm() {
   }
 
   return (
-    <Card className="max-w-md mx-4 sm:mx-auto border-2 border-black dark:border-white mb-8">
+    <Card
+      id="waitlist"
+      className="max-w-md mx-4 sm:mx-auto border-2 border-black dark:border-white mb-8"
+    >
       <CardContent className="p-8 space-y-6">
         <div className="text-center space-y-2">
           <h3 className="text-2xl font-bold">Join the Waitlist</h3>

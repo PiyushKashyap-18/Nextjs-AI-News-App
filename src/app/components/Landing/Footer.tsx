@@ -29,6 +29,7 @@ const Footer = () => {
               <div className="flex flex-col space-y-2 text-gray-600 dark:text-gray-300">
                 <Link href="#features">Features</Link>
                 <Link href="#pricing">Pricing</Link>
+                <Link href="#waitlist">Waitlist</Link>
               </div>
             </div>
 
