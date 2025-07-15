@@ -3,6 +3,8 @@ import { auth } from "@/lib/auth";
 import { redirect } from "next/navigation";
 import Image from "next/image";
 
+import ClientNavbar from "../../components/app/ClientNavbar";
+
 export default async function AppPage() {
   const session = await auth();
 
@@ -21,6 +23,7 @@ export default async function AppPage() {
         height={64}
         className="w-16 h-16 rounded-full mt-4"
       />
+      <ClientNavbar />
     </main>
   );
 }
