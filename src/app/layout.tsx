@@ -3,6 +3,7 @@ import { Sora } from "next/font/google";
 import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
+import { Toaster } from "@/components/ui/sonner";
 
 const geistSans2 = Sora({
   variable: "--font-geist-sans-2",
@@ -58,6 +59,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className={` ${geistSans2.variable} antialiased`}>
         {children}
+        <Toaster position="top-center" />
         <Analytics />
         <SpeedInsights />
       </body>

@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { LucideIcon, Home, User, Settings, Search, Plus } from "lucide-react";
+import { LucideIcon, Home, User, Search, TrendingUp } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation";
 
@@ -21,9 +21,8 @@ interface NavBarProps {
 export const navItems: NavItem[] = [
   { name: "Home", url: "/app", icon: Home },
   { name: "Search", url: "/app/search", icon: Search },
-  { name: "Create", url: "", icon: Plus },
+  { name: "Trending", url: "/app/trending", icon: TrendingUp },
   { name: "Account", url: "/app/account", icon: User },
-  { name: "Settings", url: "/app/settings", icon: Settings },
 ];
 
 export function NavBar({ items, className }: NavBarProps) {
@@ -36,7 +35,7 @@ export function NavBar({ items, className }: NavBarProps) {
         className
       )}
     >
-      <div className="flex items-center mx10 gap-3 bg-background/5 border border-border backdrop-blur-lg py-1 px-1 rounded-full shadow-lg">
+      <div className="flex items-center gap-3 bg-background/5 border mr-4 ml-4 border-border backdrop-blur-lg py-1 px-1 rounded-full shadow-lg">
         {items.map((item) => {
           const Icon = item.icon;
           const isActive = pathname === item.url;
