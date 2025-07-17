@@ -9,7 +9,7 @@ import {
   LogOut,
   MoreHorizontal,
   Mail,
-  CheckCircle,
+  // CheckCircle,
 } from "lucide-react";
 import { Dialog, DialogTrigger, DialogContent } from "@/components/ui/dialog";
 import {
@@ -23,7 +23,6 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
 } from "@/components/ui/dropdown-menu";
-import { Badge } from "@/components/ui/badge"; // Import the Badge component
 import SettingsDialog from "@/app/components/setting/SettingDialog";
 // import PreferencesDialog from "@/app/components/setting/PrefrenceDialog";
 import SignOutAlertDialog from "@/app/components/setting/SignOutDialog";
@@ -33,7 +32,7 @@ const AccountPage = () => {
     name: "Test User",
     email: "Test@example.com",
     avatar: "https://github.com/shadcn.png",
-    isVerified: true, // Added for the verified badge
+    // isVerified: true, // Added for the verified badge
   };
 
   return (
@@ -74,14 +73,14 @@ const AccountPage = () => {
           </Avatar>
           <div className="flex items-center mb-1">
             <h2 className="text-xl font-semibold mr-2">{user.name}</h2>
-            {user.isVerified && (
+            {/* {user.isVerified && (
               <Badge
                 variant="secondary"
                 className="flex items-center gap-1 px-2 py-1 text-xs"
               >
                 <CheckCircle className="h-3 w-3 text-blue-500" /> Verified
               </Badge>
-            )}
+            )} */}
           </div>
           <p className="text-muted-foreground flex items-center mb-1">
             <Mail className="h-4 w-4 mr-2" /> {user.email}

@@ -5,8 +5,7 @@ import {
   DialogDescription,
 } from "@/components/ui/dialog";
 import { Label } from "@/components/ui/label";
-import { Switch } from "@/components/ui/switch";
-import { Button } from "@/components/ui/button";
+import { ModeToggle } from "../ModeToggle";
 
 const SettingsDialog = () => {
   return (
@@ -20,9 +19,9 @@ const SettingsDialog = () => {
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <Label htmlFor="dark-mode">Dark Mode</Label>
-          <Switch id="dark-mode" />
+          <ModeToggle />
         </div>
-        <Button className="w-full">Save Changes</Button>
+        {/* <Button className="w-full">Save Changes</Button> */}
       </div>
     </div>
   );

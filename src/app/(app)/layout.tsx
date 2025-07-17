@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import ClientNavbar from "../components/app/ClientNavbar";
+import { ThemeProvider } from "@/components/ThemeProvider";
 import { redirect } from "next/navigation";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/authOptions";
@@ -18,7 +19,16 @@ export default async function DashboardLayout({
   return (
     <div>
       <ClientNavbar />
-      <main>{children}</main>
+      <main>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}{" "}
+        </ThemeProvider>
+      </main>
     </div>
   );
 }
