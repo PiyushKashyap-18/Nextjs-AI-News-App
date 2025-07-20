@@ -10,11 +10,6 @@ const Footer = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-black dark:bg-white rounded-lg flex items-center justify-center">
-                  <span className="text-white dark:text-black font-bold text-xl">
-                    Q
-                  </span>
-                </div>
                 <Link href={"/"} className="font-bold text-xl">
                   QuickSwipe
                 </Link>

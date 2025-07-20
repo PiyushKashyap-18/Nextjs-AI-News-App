@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { LucideIcon, Home, User, Search, TrendingUp } from "lucide-react";
+import { LucideIcon, Home, User, TrendingUp, Newspaper } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation";
 
@@ -20,7 +20,7 @@ interface NavBarProps {
 
 export const navItems: NavItem[] = [
   { name: "Home", url: "/app", icon: Home },
-  { name: "Search", url: "/app/search", icon: Search },
+  { name: "Feed", url: "/app/feed", icon: Newspaper },
   { name: "Trending", url: "/app/trending", icon: TrendingUp },
   { name: "Account", url: "/app/account", icon: User },
 ];

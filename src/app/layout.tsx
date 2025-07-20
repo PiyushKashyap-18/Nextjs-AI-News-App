@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     siteName: "QuickSwipe",
     images: [
       {
-        url: "https://quickswipe.vercel.app/og-image.png",
+        url: "/public/quickswipe.png",
         width: 1200,
         height: 630,
         alt: "QuickSwipe - AI Summarized News",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     title: "QuickSwipe - AI Summarized News in Reels Style",
     description:
       "Swipe through AI-generated news summaries in 60–70 words. Stay informed quickly with QuickSwipe.",
-    images: ["https://quickswipe.vercel.app/og-image.png"],
+    images: ["/public/quickswipe.png"],
   },
 };
 
